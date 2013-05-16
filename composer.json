@@ -1,5 +1,5 @@
 {
-    "name": "sp/bower-bundle",
+    "name": "goc/bower-bundle",
     "type": "symfony-bundle",
     "description": "Handle asset dependencies with bower",
     "keywords": ["asset", "dependencies", "bower manager", "bower"],
@@ -18,12 +18,12 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "symfony/framework-bundle": ">=2.1,<2.3-dev",
-        "symfony/process": ">=2.1,<2.3-dev",
-        "symfony/assetic-bundle": ">=2.1,<2.3-dev"
+        "symfony/framework-bundle": ">=2.1,<2.4-dev",
+        "symfony/process": ">=2.1,<2.4-dev",
+        "symfony/assetic-bundle": ">=2.1,<2.4-dev"
     },
     "require-dev":{
-        "symfony/console": ">=2.1,<2.3-dev",
+        "symfony/console": ">=2.1,<2.4-dev",
         "phpunit/phpunit": "3.7.*"
     },
     "config": {
